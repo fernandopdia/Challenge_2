@@ -1,0 +1,39 @@
+Cómo acceder a la API de INEGI EXCEL
+https://www.youtube.com/watch?v=ps57X1aJGgo&ab_channel=SocialTIC
+
+INEGI servicios
+https://www.inegi.org.mx/siscon/
+
+desarrolladores
+https://www.inegi.org.mx/servicios/api_indicadores.html
+
+
+api con key
+https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6207024007,6207078924,6207095692,720504,5300000001,539260,710380,6207061840,702100,716013/es/0700/true/BISE/2.0/23c81832-e1d2-3193-5505-1cc0bde56f69?type=json
+
+key
+23c81832-e1d2-3193-5505-1cc0bde56f69
+
+{"Header":
+{"Name":"Datos compactos BISE","Email":"atencion.usuarios@inegi.org.mx"},
+"Series":
+[
+    {"INDICADOR":"539260",
+    "FREQ":"3",
+    "TOPIC":"141",
+    "UNIT":"116",
+    "UNIT_MULT":"",
+    "NOTE":"",
+    "SOURCE":"21005",
+    "LASTUPDATE":"09/01/2023",
+    "STATUS":"3",
+    "OBSERVATIONS":
+    [
+        {"TIME_PERIOD":"2023",
+        "OBS_VALUE":"103.74000000000000000000",
+        "OBS_EXCEPTION":null,
+        "OBS_STATUS":"3",
+        "OBS_SOURCE":"",
+        "OBS_NOTE":"",
+        "COBER_GEO":"0700"}
+        ]},
